@@ -85,3 +85,14 @@ bandit5@melinda:~/inhere$ cat ./maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
 Password: *DXjZPULLxYr17uwoI01bNLQbtFemEgo7*
+
+### Level 6
+
+```
+bandit6@melinda:/$ cd /
+bandit6@melinda:/$ find . -user bandit7 -group bandit6
+bandit6@melinda:/$ cat ./var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+```
+Password: *HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs*
+
