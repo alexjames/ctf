@@ -153,16 +153,21 @@ alx@conjecture:~$ scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.priv
 alx@conjecture:~$ chmod 600 sshkey.private 
 alx@conjecture:~$ ssh -p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org
 ```
-Password: <none>
+Password: (none)
 
-### Level 8
+### Level 14
 
 ```
+bandit14@melinda:~$ cat /etc/bandit_pass/bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+bandit14@melinda:~$ nc localhost 30000
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
-Password:
+Password: BfMYroe26WYalil77FoDi9qh59eK5xNr
 
-
-### Level 8
+### Level 15
 
 ```
 ```
