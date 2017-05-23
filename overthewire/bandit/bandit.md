@@ -139,7 +139,7 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 Password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 ### Level 12
-Use mv, bunzip2, bunzip and tar multiple times till you reach the end.
+Use `xxd -r` to revert the hexdump to its original form. Then use mv, bunzip2, bunzip and tar multiple times till you reach the end.
 ```
 bandit12@melinda:/tmp/alex$ cat data8
 The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
