@@ -112,8 +112,50 @@ UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
 Password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
+### Level 9
+
+```
+bandit9@melinda:~$ strings data.txt  | grep "^="
+========== password
+========== ism
+========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+```
+Password: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+### Level 10
+
+```
+bandit10@melinda:~$  base64 -d data.txt 
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+```
+Password: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+### Level 11
+
+```
+bandit11@melinda:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+```
+Password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+### Level 12
+Use mv, bunzip2, bunzip and tar multiple times till you reach the end.
+```
+bandit12@melinda:/tmp/alex$ cat data8
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+```
+Password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+### Level 13
+
+```
+```
+Password:
+
 ### Level 8
 
 ```
 ```
 Password:
+
+
