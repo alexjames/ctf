@@ -149,6 +149,22 @@ Password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ### Level 13
 
 ```
+alx@conjecture:~$ scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.private .
+alx@conjecture:~$ chmod 600 sshkey.private 
+alx@conjecture:~$ ssh -p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org
+```
+Password: <none>
+
+### Level 8
+
+```
+```
+Password:
+
+
+### Level 8
+
+```
 ```
 Password:
 
@@ -158,4 +174,32 @@ Password:
 ```
 Password:
 
+### Level 8
 
+```
+```
+Password:
+
+### Level 8
+
+```
+```
+Password:
+
+### Level 8
+
+```
+```
+Password:
+
+### Level 8
+
+```
+```
+Password:
+
+### Level 8
+
+```
+```
+Password:
