@@ -96,3 +96,24 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
 Password: *HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs*
 
+### Level 7
+
+```
+bandit7@melinda:~$ cat data.txt | grep millionth
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+```
+Password: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+### Level 8
+
+```
+bandit8@melinda:~$ cat data.txt | sort | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```
+Password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+### Level 8
+
+```
+```
+Password:
