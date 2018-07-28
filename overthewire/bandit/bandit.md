@@ -224,3 +224,35 @@ bandit21@bandit:~$ less /usr/bin/cronjob_bandit22.sh
 bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
 Password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+### Level 22
+From the script, we need to decipher what the following command does.
+```
+bandit22@bandit:~$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+bandit22@bandit:~$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+Password: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+### Level 23
+From the script, we need to decipher what the following command does.
+```
+bandit22@bandit:~$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+bandit22@bandit:~$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+Password: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+### Level 24
+The timeout command is used to execute scripts. We just write a small script to read the password file for us.
+```
+Script:
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 >> /tmp/blah/alx
+
+Copy under /var/spool/bandit24
+```
+Caveats: When a file is copied, its permissions may change. Ensure that the final location of the script has the right
+permissions.
+
+Password: UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
