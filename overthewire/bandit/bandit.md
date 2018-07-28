@@ -170,16 +170,20 @@ Password: BfMYroe26WYalil77FoDi9qh59eK5xNr
 ### Level 15
 
 ```
+bandit15@bandit:~$ openssl s_client -connect localhost:30001 -ign_eof
 ```
-Password:
+Password: cluFn7wTiGryunymYOu4RcffSxQluehd
 
-### Level 8
+### Level 16
 
 ```
-```
-Password:
+bandit16@bandit:~$ nmap -A -p 31000-32000 localhost
+bandit16@bandit:~$ openssl s_client -connect localhost:31790
 
-### Level 8
+```
+Password: [Private Key]
+
+### Level 17
 
 ```
 ```
