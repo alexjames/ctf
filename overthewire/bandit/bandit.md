@@ -207,12 +207,20 @@ bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
 Password: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
 ### Level 20
+Use tmux to create two new windows. Run a nc server in one of them and use the uuid binary in the other.
 ```
-```
-Password:
+bandit20@bandit:~$ nc -l 5000
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
-### Level 8
+bandit20@bandit:~$ ./suconnect 5000
+```
+Password: gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+### Level 21
 
 ```
+bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
+bandit21@bandit:~$ less /usr/bin/cronjob_bandit22.sh
+bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
-Password:
+Password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
