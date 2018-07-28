@@ -139,6 +139,7 @@ The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 Password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 ### Level 12
+
 Use `xxd -r` to revert the hexdump to its original form. Then use mv, bunzip2, bunzip and tar multiple times till you reach the end.
 ```
 bandit12@melinda:/tmp/alex$ cat data8
@@ -186,23 +187,26 @@ Password: [Private Key]
 ### Level 17
 
 ```
+bandit17@bandit:~$ diff passwords.new passwords.old 
 ```
-Password:
+Password:kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 
-### Level 8
+### Level 18
+Login without triggering bash, thus skipping bashrc.
+```
+alex@Conjecture:~$ ssh -p 2220 -t bandit18@bandit.labs.overthewire.org /bin/sh
+$ cat readme
+```
+Password: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+### Level 19
 
 ```
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20 
 ```
-Password:
+Password: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
-### Level 8
-
-```
-```
-Password:
-
-### Level 8
-
+### Level 20
 ```
 ```
 Password:
