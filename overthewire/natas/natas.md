@@ -39,4 +39,12 @@ Look for the cookie `loggedin=0`. Change it to `loggedin=1`.
 
 Password: *aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1*
 
+### Level 6
+Source code references a file that contains the secret. Input the secret and get to the next level.
 
+Password: *7z3hEENjQtflzgnT29q7wAvMNfZdh0i9*
+
+### Level 7
+There is a hint saying the password is stored in `/etc/natas_webpass/natas8`. The url has a `page` parameter, hinting we should try getting to this path. We navigate to `http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8` to get the answer.
+
+Password: *DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe*
