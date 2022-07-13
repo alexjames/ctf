@@ -34,3 +34,9 @@ Use Burp suite to intercept and modify this request to the one from the message.
 
 Password: *iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq*
 
+### Level 5
+Look for the cookie `loggedin=0`. Change it to `loggedin=1`.
+
+Password: *aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1*
+
+
