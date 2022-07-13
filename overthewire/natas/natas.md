@@ -53,3 +53,9 @@ Password: *DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe*
 Similar to 6 except now the script basically does a transformation to what you input, which needs to equal "3d3d516343746d4d6d6c315669563362". The transformation is `bin2hex(strrev(base64_encode($secret)))`. We need to do the reverse which is `base64_decode(strrev(hex2bin("3d3d516343746d4d6d6c315669563362")))`. Running this in a PHP interpretter gives the secret we have to input.
 
 Password: *W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl*
+
+### Level 9
+Looks like clear case command injection. The Natas webpage says the file should be at the path `/etc/natas_webpass/natas9`. We just have to get the grep to behave like a cat, which it does already. The command string is `grep -i $key dictionary.txt`. Inputting `"" /etc/natas_webpass/natas9` gives us what we want.
+
+Password: *W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl*
+
