@@ -23,3 +23,14 @@ Password: *sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14*
 There's a hint saying that not even Google can find this page. This hinted at there being a `robots.txt` file that stops browsers from indexing pages. There is a `Disallow` section for a path named `s3cr3t`. Browsing that path reveals another `users.txt` file.
 
 Password: *Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ*
+
+### Level 4
+
+You are greeted with the message `You are visiting from "http://natas4.natas.labs.overthewire.org/index.php" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"`. There is a refresh button. Clicking on it sends another request with the HTTP header - 
+```
+Referer: http://natas4.natas.labs.overthewire.org/index.php
+```
+Use Burp suite to intercept and modify this request to the one from the message.
+
+Password: *iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq*
+
