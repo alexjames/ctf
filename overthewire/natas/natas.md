@@ -48,3 +48,8 @@ Password: *7z3hEENjQtflzgnT29q7wAvMNfZdh0i9*
 There is a hint saying the password is stored in `/etc/natas_webpass/natas8`. The url has a `page` parameter, hinting we should try getting to this path. We navigate to `http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8` to get the answer.
 
 Password: *DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe*
+
+### Level 8
+Similar to 6 except now the script basically does a transformation to what you input, which needs to equal "3d3d516343746d4d6d6c315669563362". The transformation is `bin2hex(strrev(base64_encode($secret)))`. We need to do the reverse which is `base64_decode(strrev(hex2bin("3d3d516343746d4d6d6c315669563362")))`. Running this in a PHP interpretter gives the secret we have to input.
+
+Password: *W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl*
