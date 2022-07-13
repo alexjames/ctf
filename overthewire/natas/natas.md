@@ -55,7 +55,7 @@ Similar to 6 except now the script basically does a transformation to what you i
 Password: *W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl*
 
 ### Level 9
-Looks like clear case command injection. The Natas webpage says the file should be at the path `/etc/natas_webpass/natas9`. We just have to get the grep to behave like a cat, which it does already. The command string is `grep -i $key dictionary.txt`. Inputting `"" /etc/natas_webpass/natas9` gives us what we want.
+Looks like clear case command injection. The Natas webpage says the file should be at the path `/etc/natas_webpass/natas9`. We just have to get the grep to behave like a cat, which it does already. The command string is `grep -i $key dictionary.txt`. Inputting `"" /etc/natas_webpass/natas10` gives us what we want.
 
-Password: *W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl*
+Password: *nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu*
 
