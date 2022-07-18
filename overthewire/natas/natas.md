@@ -59,3 +59,8 @@ Looks like clear case command injection. The Natas webpage says the file should 
 
 Password: *nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu*
 
+### Level 10
+Same injection as above works.
+
+Password: *U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK*
+
